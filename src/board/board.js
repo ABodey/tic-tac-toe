@@ -17,7 +17,7 @@ class Board extends PureComponent {
         <li style={{ backgroundColor: 'white' }}key={i} 
           onClick={(square === '') ? () => this.handleChoice(i): null}>
           <h1>{square}</h1>
-        </li>
+        </li>cd 
       );
     });
 
